@@ -59,6 +59,12 @@ Esse exemplo mostra como seria aquele algoritmo que fizemos de somar dois númer
 | **string.h**  | Obtém funções para manipulação de strings, `strcpy()`, `strcmp()`, `strlen()` |
 | **stdbool.h** | É usada para manipular variáveis lógicas como verdadeiro (true) e falso (false) |
 
+### Variáveis
+Para entender o conceito de variável vou dar um exemplo que explique melhor:
+Duas pessoas estão conversando e precisam fazer uma conta, então a primeira pessoa diz: "preciso fazer uma subtração de dois números e o primeiro número é o 7". Então a segunda pessoa pega esse número e guarda ele na cabeça, ou seja, na memória. A primeira pessoa então diz: "E o segundo número é o 3". A segunda pessoa também guarda esse número na memória, mas em outra parte, sem sobrescrever o 7. Por fim a primeira pessoa pergunta: "Qual a resposta ?". A segunda pessoa resgata os números 7 e 3 e faz a subtração e responde: "A resposta 4".
+Com esse exemplo podemos entender que váriavel é um espaço na memória que serve para armazenar e manipular dados enquanto o programa estiver em execução. Cada variável deve ter um nome e seu tipo correspondente
+
+
 
 
 
