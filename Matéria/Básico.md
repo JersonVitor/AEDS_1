@@ -40,12 +40,25 @@ printf("Soma de dois numeros:\n");
 //Declaração, atribuição e cálculo da soma de dois números
  int soma = A + B;
 
-Escrita na tela do usuário
+//Escrita na tela do usuário
  printf("%d + %d = %d",A, B, soma);
 return 0;
 }
 
 ```
+Esse exemplo mostra como seria aquele algoritmo que fizemos de somar dois números, mas agora de um jeito que o compilador consiga construir para que o computador entenda melhor. Mas para elaborar esses algoritmos, precisamos entender alguns conceitos básicos:
+
+### Bibliotecas
+ Bibliotecas são coleções de códigos pré-definidos que fornecem funções e recursos específicos para facilitar o desenvolvimento de programas, em geral a linguagem C possui várias bibliotecas para programadores poderem utilizar, pois possui uma ampla gama de funcionalidades e recursos. Alguma das bibliotecas mais comuns são:
+
+ | Bibliotecas  | Descrição |
+| ------------- | ------------- |
+| **stdlib.h**  | Contém funções relacionadas ao gerenciamento de memória, alocação dinâmica e conversão de tipos. |
+| **stdio.h**  | Fornece funções de entrada e saída padrão, como `printf()`, `scanf()`.  |
+| **math.h**  | Possui funções matemáticas, como `sqrt()`, `cos()`, `sin()` e várias outras.  |
+| **string.h**  | Obtém funções para manipulação de strings, `strcpy()`, `strcmp()`, `strlen()` |
+| **stdbool.h** | É usada para manipular variáveis lógicas como verdadeiro (true) e falso (false) |
+
 
 
 
