@@ -1,4 +1,5 @@
 # Básico sobre algoritmos
+
 ## O que é um algoritmo?
 
 Bom, para entendermos melhor sobre o que é um algoritmo, podemos pegar um conceito feito por Dirceu Douglas Salvetti:
@@ -46,20 +47,23 @@ return 0;
 }
 
 ```
+
 Esse exemplo mostra como seria aquele algoritmo que fizemos de somar dois números, mas agora de um jeito que o compilador consiga construir para que o computador entenda melhor. Mas para elaborar esses algoritmos, precisamos entender alguns conceitos básicos:
 
 ### Bibliotecas
+
  Bibliotecas são coleções de códigos pré-definidos que fornecem funções e recursos específicos para facilitar o desenvolvimento de programas, em geral a linguagem C possui várias bibliotecas para programadores poderem utilizar, pois possui uma ampla gama de funcionalidades e recursos. Alguma das bibliotecas mais comuns são:
 
- | Bibliotecas  | Descrição |
-| ------------- | ------------- |
+| Bibliotecas         | Descrição                                                                                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------- |
 | **stdlib.h**  | Contém funções relacionadas ao gerenciamento de memória, alocação dinâmica e conversão de tipos. |
-| **stdio.h**  | Fornece funções de entrada e saída padrão, como `printf()`, `scanf()`.  |
-| **math.h**  | Possui funções matemáticas, como `sqrt()`, `cos()`, `sin()` e várias outras.  |
-| **string.h**  | Obtém funções para manipulação de strings, `strcpy()`, `strcmp()`, `strlen()` |
-| **stdbool.h** | É usada para manipular variáveis lógicas como verdadeiro (true) e falso (false) |
+| **stdio.h**   | Fornece funções de entrada e saída padrão, como `printf()`, `scanf()`.                           |
+| **math.h**    | Possui funções matemáticas, como `sqrt()`, `cos()`, `sin()` e várias outras.                   |
+| **string.h**  | Obtém funções para manipulação de strings,`strcpy()`, `strcmp()`, `strlen()`                  |
+| **stdbool.h** | É usada para manipular variáveis lógicas como verdadeiro (true) e falso (false)                       |
 
 ### Variáveis
+
 Para entender o conceito de variável vou dar um exemplo que explique melhor:
 Duas pessoas estão conversando e precisam fazer uma conta, então a primeira pessoa diz: "preciso fazer uma subtração de dois números e o primeiro número é o 7". Então a segunda pessoa pega esse número e guarda ele na cabeça, ou seja, na memória. A primeira pessoa então diz: "E o segundo número é o 3". A segunda pessoa também guarda esse número na memória, mas em outra parte, sem sobrescrever o 7. Por fim a primeira pessoa pergunta: "Qual a resposta ?". A segunda pessoa resgata os números 7 e 3 e faz a subtração e responde: "A resposta 4".
 
@@ -67,18 +71,18 @@ Com esse exemplo podemos entender que váriavel é um espaço na memória que se
 
 Os tipos mais comuns de variáveis são:
 
-| Tipo de Dado | Descrição                                     | Escrita em C    |
-| ------------ | --------------------------------------------- | --------------- |
-| Inteiro      | Representa números inteiros                    | `int`, `long`, `short int`|
-| Ponto Flutuante | Representa números com casas decimais         | `float`, `double`   |
-| Caractere    | Representa um único caractere                  | `char`            |
-| Booleano     | Representa um valor lógico (verdadeiro ou falso)| `bool` (Se usar stdbool.h) |
+| Tipo de Dado    | Descrição                                       | Escrita em C                     |
+| --------------- | ------------------------------------------------- | -------------------------------- |
+| Inteiro         | Representa números inteiros                      | `int`, `long`, `short int` |
+| Ponto Flutuante | Representa números com casas decimais            | `float`, `double`            |
+| Caractere       | Representa um único caractere                    | `char`                         |
+| Booleano        | Representa um valor lógico (verdadeiro ou falso) | `bool` (Se usar stdbool.h)     |
 
 
-
-**Declaração de variáveis**
+##### **Declaração de variáveis**
 
 Para declaração de varáveis podemos usar uma parte do exemplo que foi apresentado mais acima:
+
 ```C
 //declaração de variáveis
   int A;
@@ -90,53 +94,18 @@ Para declaração de varáveis podemos usar uma parte do exemplo que foi apresen
   int soma = A + B;
 
 ```
+
 Olhando o exemplo é possível destacar que quando vai criar uma variável, primeiro é colocado tipo do dado que vai armazenar e logo após o nome que vai ser o identificador da variável. Como você pode perceber existem 3 meios de se inicializar uma variável:
+
 - Você pode simplesmente inicializar a variável e depois adicionar um dado.
 - Pode inicializar a Variável atribuindo um dado de início.
 - É possível iniciá-la atribuindo com uma operação.
 
 Para colocar um nome de variável é preciso obedecer algumas regras de formatação:
+
 - O caracteres permitidos são números, letras maiúsculas, minúsculas, e o caractere sublinhado.
 - O primeiro caractere deve sempre ser uma letra ou o caractere sublinhado.
 - Não são permitidos espaços em branco e caracteres especiais.
 - Não podemos usar as palavras que são próprias da linguagem de programação como identificadores de variáveis.
-  
+
 Quando uma variável é declarada, é importante destacar que, nesse momento, o compilador reserva uma parte da memória para que aquela variável possa ser utilizada durante a execução do programa. Portanto, é necessário tomar cuidado ao declarar uma variável, seja evitando fazê-lo em locais onde o programa não executará ou dentro de estruturas de repetição. Dentro de uma estrutura de repetição, a variável será inicializada novamente a cada repetição do código, o que pode ocasionar na perda dos dados armazenados anteriormente.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
