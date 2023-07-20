@@ -2,7 +2,7 @@
 
 ## O que é um algoritmo?
 
-Bom, para entendermos melhor sobre o que é um algoritmo, podemos pegar um conceito feito por Dirceu Douglas Salvetti:
+Bom, para entendermos melhor o que é um algoritmo, podemos usar uma definição de Dirceu Douglas Salvetti:
 
 > "Algoritmo é uma sequência finita de instruções ou operações cuja execução, em tempo finito, resolve um problema computacional, qualquer que seja sua instância."
 
@@ -194,5 +194,9 @@ Neste exemplo, a função `puts()` exibe a mensagem "Bem-vindo ao programa!" na 
 Em resumo, o `printf()` é mais flexível e permite formatar e exibir dados de forma personalizada, enquanto o `puts()` é mais simples e é usado para mostrar mensagens sem formatação. Escolha a função adequada com base nas necessidades de exibição do seu programa.
 
 
+# Referências Bibliográficas
 
+[1](https://www.amazon.com.br/Fundamentos-programa%C3%A7%C3%A3o-computadores-algoritmos-pascal/dp/8564574160/) FERNANDA, A.; DE, V. Fundamentos da programação de computadores : algoritmos, Pascal, C/C++ e Java. São Paulo: Pearson Prentice Hall, 2008.
+
+‌
 
