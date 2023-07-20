@@ -9,4 +9,5 @@ int main() {
 	int perimetro = x * 4;
 
 	printf("O perimetro e: %d\n", perimetro);
+    return 0;
 }
