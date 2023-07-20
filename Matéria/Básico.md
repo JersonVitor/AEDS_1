@@ -162,7 +162,7 @@ Esse código basicamente pega dois números quaisquer que o usuário tenha digit
 
 A saída de dados é a forma como o programa apresenta as inforamções para o usuário. Em linguagens como C existem duas funções comuns para realizar a saída de dados:
 
-1. `printf()`: Essa função é amplamente utilizada para exibir dados formatados na tela. Ela permite exibir mensagens, valores de variáveis e outros dados com formatação específica. A sintaxe do printf() envolve o uso de códigos de formatação, que são especificados com %, para indicar os lugares onde os valores serão inseridos na mensagem de saída. Exemplo:
+1. `printf()`: Essa função é amplamente utilizada para exibir dados formatados na tela. Ela permite exibir mensagens, valores de variáveis e outros dados com formatação específica. A sintaxe do `printf()` envolve o uso de códigos de formatação, que são especificados com `%`, para indicar os lugares onde os valores serão inseridos na mensagem de saída. Exemplo:
 
 
 ```C
@@ -175,9 +175,9 @@ int main() {
 ```
 
 
-Neste exemplo, a função printf() exibe a mensagem "A minha idade é 25 anos." na tela, onde %d é um código de formatação que indica que o valor da variável idade será exibido no lugar do %d.
+Neste exemplo, a função `printf()` exibe a mensagem "A minha idade é 25 anos." na tela, onde `%d` é um código de formatação que indica que o valor da variável idade será exibido no lugar do `%d`.
 
-2. puts(): Essa função é utilizada para exibir mensagens simples, sem formatação, na tela. Ela imprime a mensagem e adiciona uma nova linha após a exibição. Ao contrário do printf(), o puts() não permite a formatação dos dados e é mais adequado para exibir mensagens de texto simples. Exemplo:
+2. `puts()`: Essa função é utilizada para exibir mensagens simples, sem formatação, na tela. Ela imprime a mensagem e adiciona uma nova linha após a exibição. Ao contrário do `printf()`, o `puts()` não permite a formatação dos dados e é mais adequado para exibir mensagens de texto simples. Exemplo:
 
 
 ```C
@@ -189,9 +189,9 @@ int main() {
 ```
 
 
-Neste exemplo, a função puts() exibe a mensagem "Bem-vindo ao programa!" na tela, seguida de uma nova linha.
+Neste exemplo, a função `puts()` exibe a mensagem "Bem-vindo ao programa!" na tela, seguida de uma nova linha.
 
-Em resumo, o printf() é mais flexível e permite formatar e exibir dados de forma personalizada, enquanto o puts() é mais simples e é usado para mostrar mensagens sem formatação. Escolha a função adequada com base nas necessidades de exibição do seu programa.
+Em resumo, o `printf()` é mais flexível e permite formatar e exibir dados de forma personalizada, enquanto o `puts()` é mais simples e é usado para mostrar mensagens sem formatação. Escolha a função adequada com base nas necessidades de exibição do seu programa.
 
 
 
